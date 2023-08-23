@@ -1,12 +1,22 @@
 # LUNAAI3.0
 Made in HTML5, CSS3: A simple AI ChatBot using API from OpenAI.
-Model: gpt3.5-turbo
 
 ##
 
+Model
+
+```
+gpt3.5-turbo
+```
+
+framework:
+```js
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+```
 # Logo
 
-<img width="348" alt="logo" src="https://github.com/josevitor555/LUNAAI3.0/assets/127617992/2a4040af-4bd5-4d4f-a4aa-5fe93c679d7c">
+<img width="419" alt="Captura de tela 2023-08-23 174740" src="https://github.com/josevitor555/LUNAAI3.0/assets/127617992/9fd8bb69-23ea-43d9-93c3-e624badb7832">
+
 
 ##
 
@@ -20,14 +30,21 @@ Model: gpt3.5-turbo
 # About Dictionary variables
 
 ```js
-body: JSON.stringify({
-            model: "text-davinci-003",
-            prompt: userText,
-            max_tokens: 2048,
-            temperature: 0.5,
-            n: 1,
-            stop: null
-)}
+const requestOptions = {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${API_KEY}`
+    },
+    body: JSON.stringify({
+        model: "text-davinci-003",
+        prompt: userText,
+        max_tokens: 2048,
+        temperature: 0.5,
+        n: 1,
+        stop: null
+    })
+};
 ```
 ```js
 model: "text-davinci-003",
