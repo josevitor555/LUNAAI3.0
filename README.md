@@ -1,7 +1,4 @@
 # LUNAAI3.0
-A scimple chatbot whit API of OpenAI.
-
-# LUNAAI3.0
 Made in HTML5, CSS3: A simple AI ChatBot using API from OpenAI.
 Model: gpt3.5-turbo
 
@@ -9,7 +6,8 @@ Model: gpt3.5-turbo
 
 # Logo
 
-<img width="348" alt="logo" src="https://github.com/josevitor555/LUNAAI3.0/assets/127617992/2a4040af-4bd5-4d4f-a4aa-5fe93c679d7c">
+<img width="419" alt="Captura de tela 2023-08-23 174740" src="https://github.com/josevitor555/LUNAAI3.0/assets/127617992/8f70008d-a2a2-4c71-b422-502128839269">
+
 
 ##
 
@@ -23,14 +21,21 @@ Model: gpt3.5-turbo
 # About Dictionary variables
 
 ```js
-body: JSON.stringify({
-            model: "text-davinci-003",
-            prompt: userText,
-            max_tokens: 2048,
-            temperature: 0.5,
-            n: 1,
-            stop: null
-)}
+const requestOptions = {
+    method: "POST",
+    headers: {
+        "Content-Type": "application/json",
+        "Authorization": `Bearer ${API_KEY}`
+    },
+    body: JSON.stringify({
+        model: "text-davinci-003",
+        prompt: userText,
+        max_tokens: 2048,
+        temperature: 0.5,
+        n: 1,
+        stop: null
+    })
+};
 ```
 ```js
 model: "text-davinci-003",
