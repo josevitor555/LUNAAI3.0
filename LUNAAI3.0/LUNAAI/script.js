@@ -9,7 +9,7 @@ const audioChat = new Audio("sound-chat/sound.wav");
 
 let userText = null;
 
-const API_KEY = "sk-Wk9AcY0Qat3nwBYTSTEsT3BlbkFJqRCiaea8UWwTCFzlOv8d";
+const API_KEY = "YOUR_API_KEY";
 
 const localDataFromLocalstorage = () => {
 
