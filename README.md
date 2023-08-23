@@ -1,6 +1,17 @@
 # LUNAAI3.0
-Made in HTML5, CSS3: A simple AI ChatBot using API from OpenAI.
-Model: gpt3.5-turbo
+Made in HTML5, CSS3 and JavaScript: A simple AI ChatBot using API from OpenAI.
+
+##
+
+Model:
+```
+gpt3.5-turbo
+```
+
+FrameWork: 
+```js
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+```
 
 ##
 
