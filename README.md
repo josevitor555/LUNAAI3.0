@@ -3,7 +3,7 @@ Made in HTML5, CSS3 and JavaScript: A simple AI ChatBot using API from OpenAI.
 
 ##
 
-Model:
+GPT Version:
 ```
 gpt3.5-turbo
 ```
