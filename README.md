@@ -15,21 +15,21 @@ FrameWork:
 
 ##
 
-# Logo
+### Logo
 
 <img width="419" alt="Captura de tela 2023-08-23 174740" src="https://github.com/josevitor555/LUNAAI3.0/assets/127617992/8f70008d-a2a2-4c71-b422-502128839269">
 
 
 ##
 
-# Used Languages:
+### Used Languages:
 <div style="display: inline_block">
     <img align="center" alt="Image not found" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
     <img align="center" alt="Image not found" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
     <img align="center" alt="Image not found" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
 </div> <br/>
 
-# About Dictionary variables
+### About Dictionary variables
 
 ```js
 const requestOptions = {
